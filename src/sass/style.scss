@@ -1,0 +1,13 @@
+* {
+    font-family: 'MuseoSansCyrl', sans-serif
+}
+@import 'base/variables';
+@import 'base/mixins';
+@import 'media';
+@import 'blocks/promo';
+@import 'blocks/header';
+.container {
+    width: 950px;
+    margin: 0 auto;
+}
+
