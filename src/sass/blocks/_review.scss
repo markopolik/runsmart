@@ -1,0 +1,37 @@
+.review {
+    min-height: 950px;
+    &__title {
+        color: #0d0d0d;
+        font-size: 30px;
+        font-weight: 700;
+        text-align: center;
+        text-transform: uppercase;
+        margin-bottom: 70px;
+    }
+    &__item{
+        margin-bottom: 100px;
+        display: flex;
+        justify-content: space-between;
+        &_img {
+            margin-right: 60px;
+        }
+        &_title{
+            color: #0d0d0d;
+            font-size: 18px;
+            font-weight: 700;
+            text-align: left;
+        }
+        &_subtitle {
+            color: #646464;
+            font-size: 14px;
+            font-weight: 300;
+        }
+        &_descr {
+            color: #0d0d0d;
+            font-size: 16px;
+            font-weight: 400;
+            margin-top: 19px;
+            width: 100%;
+        }
+    }
+}

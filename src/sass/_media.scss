@@ -36,14 +36,35 @@
             margin-top: 36px;
         }
     }
+    .carousel {
+        .carousel__inner {
+            width: 85%;
+            .carousel__inner_img {
+                width: 85%;
+                margin: 0 auto;
+            }
+        }
+    }
+    .catalog {
+        .catalog__tabs{
+            width: 90%;
+            margin: 0 auto;
+            margin-top: 40px;
+        }
+        .catalog__content {
+            justify-content: space-around;
+        }
+    }
+    .review {
+        padding: 0 5px 0 5px;
+    }
 }
 
 @media (max-width: 576px) {
 
     .container {
         max-width: 100%;
-      }
-
+    }
     .promo {
         .header {
           justify-content: space-around;
@@ -119,6 +140,72 @@
         .feed-form {
             margin: 0 auto;
             margin-top: 36px;
+        }
+    }
+    .carousel {
+        .carousel__inner {
+            width: 100%;
+            .carousel__inner_img {
+                width: 100%;
+                margin: 0 auto;
+            }
+        }
+    }
+
+    .catalog {
+        padding-bottom: 40px;
+        .title {
+            font-size: 24px;
+        }
+        .catalog__tabs {
+            margin-top: 30px;
+            display: flex;
+            flex-direction: column;
+            .catalog__tab {
+                margin-top: 15px;
+            }
+        }
+        .catalog__content {
+            margin-top: 40px;
+        }
+    }
+
+    .review {
+        .review__title{
+            margin-bottom: 25px;
+            font-size: 26px;
+        }
+        .review__item {
+            flex-direction: column;
+            margin-bottom: 30px;
+            .review__item_img {
+                margin-right: 0px;
+                margin: 0 auto;
+            }
+            .review__item_title {
+                text-align: center;
+                margin: 5px;
+            }
+            .review__item_descr {
+                font-size: 14px;
+            }
+            .review__item_text {
+                margin: 0 auto;
+                margin-bottom: 10px;
+                text-align: center;
+            }
+        }
+    }
+    .footer {
+        .footer__info {
+            margin: 0 auto;
+            min-height: 250px;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            min-width: 320px;
+            padding: 0;
         }
     }
 }

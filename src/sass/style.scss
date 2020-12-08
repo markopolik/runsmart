@@ -5,6 +5,12 @@
 * {
   margin: 0;
 }
+.container {
+  // position: relative;
+  width: 950px;
+  margin: 0 auto;
+}
+
 @import 'base/variables';
 @import 'base/mixins';
 @import 'media';
@@ -15,9 +21,9 @@
 @import 'blocks/titles';
 @import 'blocks/consultation';
 @import 'blocks/forms';
+@import 'blocks/carousel';
+@import 'blocks/catalog';
+@import 'blocks/review';
+@import 'blocks/footer';
 
-.container {
-  width: 950px;
-  margin: 0 auto;
-}
 
