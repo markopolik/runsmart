@@ -13,6 +13,10 @@
         text-align: center;
         img {
             margin-top: 65px;
+            transition: 0.4s all;
+            &:hover {
+                transform: scale(1.1);
+            }
         }
         &_header {
             margin-top: 34px;

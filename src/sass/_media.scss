@@ -65,7 +65,8 @@
     .container {
         max-width: 100%;
     }
-    .promo {
+    section.promo {
+        min-height: 574px;
         .header {
           justify-content: space-around;
         }
@@ -83,8 +84,9 @@
         .promo__icons {
             width: 100%;
             margin-top: 10px;
-            flex-direction: column;
+            // flex-direction: column;
             .promo__icon {
+                width: 104px;
                 margin: 0 auto;
                 img {
                     width: 45%;
@@ -130,16 +132,19 @@
             }
         }
     }
+
     .consultation {
         .title_left {
-            font-size: 25px;;
+            font-size: 24px;;
         }
         .consultation__descr {
             margin-top: 45px;
+            font-size: 18px;
         }
         .feed-form {
             margin: 0 auto;
             margin-top: 36px;
+            width: 270px;
         }
     }
     .carousel {
@@ -152,10 +157,10 @@
         }
     }
 
-    .catalog {
+    section.catalog {
         padding-bottom: 40px;
         .title {
-            font-size: 24px;
+            font-size: 23.5px;
         }
         .catalog__tabs {
             margin-top: 30px;
@@ -206,6 +211,26 @@
             flex-direction: column;
             min-width: 320px;
             padding: 0;
+        }
+        .footer__addr, .footer__phone {
+            font-size: 19px;
+        }
+        .footer__social-item {
+            width: 40px;
+            height: 40px;
+        }
+    }
+
+    .overlay {
+        .feed-form {
+            width: 255px;
+        }
+        .modal {
+            width: 255px;
+            .modal__close {
+                top: 10px;
+                right: 10px;
+            }
         }
     }
 }
