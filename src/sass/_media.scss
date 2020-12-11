@@ -209,7 +209,8 @@
             align-items: center;
             display: flex;
             flex-direction: column;
-            min-width: 320px;
+            width: 320px;
+            height: 250px;
             padding: 0;
         }
         .footer__addr, .footer__phone {
@@ -222,15 +223,15 @@
     }
 
     .overlay {
-        .feed-form {
-            width: 255px;
-        }
         .modal {
-            width: 255px;
             .modal__close {
                 top: 10px;
                 right: 10px;
             }
         }
+    }
+
+    a.pageup {
+        right: 10px;
     }
 }
